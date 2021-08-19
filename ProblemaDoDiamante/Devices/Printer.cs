@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProblemaDoDiamante.Devices
 {
-    class Printer : Device
+    class Printer : Device, IPrinter
     {
         public override void ProcessDoc(string document)
         {
